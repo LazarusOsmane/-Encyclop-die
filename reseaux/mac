@@ -1,0 +1,17 @@
+INTRODUCTION:
+	MAC ou Media Access Controle est une adresse qui permet d'identifier une interface reseaux.
+	graver en dure sur la carte reseaux de la machine, les adresse mac son unique.
+	Elle sont un peut l'equivalant des empreintes digital chez les humains.
+
+MAC:
+	EXAMPLE: a4:c3:f0:85:ac:2d  
+		 a4:c3:f0 = usine 
+		 85:ac:2d = numero de serie de l'interface reseaux
+
+	l'adresse mac est un nombre hexadecimal de 12 caracteres.
+	Les six premiers caractères représentent l'entreprise qui a créé l'interface réseau et les six derniers sont un numéro unique.
+
+USERPATION:
+	Les adresse MAC peuvent etre usurper ou falsifiees.
+	En effet une machine peut s'identifier comme en etant autre en usurpant sont addresse mac.
+	Ce proceder appelle le MAC spoffing peut etre utiliser pour usuper l'identiter d'une machine sur un reseaux local.

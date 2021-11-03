@@ -1,0 +1,37 @@
+INTROUDCITON:
+	Pour comuniquer avec une machine il faut savoir qui elle est.
+	IP ou Protcole Internet est un protcole qui permet d'identifier une machine sur un resaux a l'aide d'une adresse, l'adresse IP.
+	L'adresse IP est imuable. il existe deux type d'adresses ip, les adresse ip public et les adresse ip privee. 
+
+ADRESSE IP PUBLIC:
+	les adresse ip public permette d'identifier une machine sur l'internet.
+
+ADRESSE IP PRIVER:
+	les adresse ip priver permette d'identifier une machine sur un reseaux priver (local).
+	une machine possedant une adresse ip priver ne peut comuniquer qu'avec les machines de son reseaux.
+	pour comuniquer avec l'internet elle doit passer par un routeur possedant une adresse ip public, ce routeur fera office de relais.
+	les adresse ip public sont fournit par les Internet Service Provider (ou ISP) sous forme d'abonement mensuel.
+
+RAPPEL:
+	1 octet = 8 bi
+	1 bit   = 01
+
+IP V4:
+	EXAMPLE: 198.168.1.1 == 10101000.11000000.00000001.00000001
+
+	l'IPv4 est la quatrieme version du proctole ip. Une adresse IP est un ensemble de nombres divisés en quatre octets soit 32 bit en tout.
+	chaque nombre va de de 0 a 255 (2^8 valeur).
+ 	il existes  2^32 adresses IP (4,29 milliards) de combinaison posible avec le protocole IPv4.
+	cependant IPv4 est vouer a etre remplacer par IPv6 car la demande en adresse IP devient trop importante.
+
+ 	
+IP V6:
+	EXAMPLE = 2001:0db8:0000:85a3:0000:0000:ac1f:8001 == 16bit.16bit.16bit.16bit.16bit.16bit.16bit.16bit.16bit
+
+	l'IPv6 est la sixieme version du procotole IP. 
+	les adresse IP v6 sont une ensemble de 8 nombre chaqun de 2 octet soit 128 bit en tout.
+	chaque nombre va de 0 a 65535 (2^16 valeur).
+	par soucie de libisilite les adresse ip v6 sont representer en hexadecimal.
+	l'IP v6 fournit 2^128 adresses IP (plus de 340 000 milliards) reglant les probleme de penurie engendres par IP v4.
+
+	

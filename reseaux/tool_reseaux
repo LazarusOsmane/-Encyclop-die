@@ -1,0 +1,15 @@
+INTRODUCTIO:
+	ensemble des outils de pentestes reseaux.
+
+PING:
+	Ping permet de tester la connectiviter de toute entiter (pc, serveur web, phone ect) possedant une adresse ip.
+	pour faire cela Ping utilise le protocol icmp ( ou Internet Control Message Paquets). 
+	il va envoyer des paquet icmp echo et calcul le temp de reponce de la cible.
+	
+	SYNTAXE: ping <address IP> || <URL website>
+		$ ping google.com
+		$ ping 198.162.1.1
+
+	ENVOYER X NOMBRE DE REQUETE ECHO:
+		$ ping -c <nbr> 198.162.1.1  
+
